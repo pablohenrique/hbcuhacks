@@ -2,8 +2,24 @@ angular.module('starter.controllers', [])
 
   .controller('DashCtrl', function($scope) {})
 
-  .controller('OrderCtrl', function($scope) {})
+  .controller('OrderCtrl', function($scope, $ionicPopup, $timeout) {
 
+    $scope.showAlert = function() {
+      var alertPopup = $ionicPopup.alert({
+        title: 'Done',
+        template: 'A new status request was sent.'
+      });
+      //alertPopup.then(function(res) {
+      //  console.log('Thank you for not eating my delicious ice cream cone');
+      //});
+      $timeout(function(){
+        alertPopup.close();
+      }, 3000);
+    };
+
+  })
+
+  .controller('ShoppingCtrl', function($scope) {})
 
   .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
