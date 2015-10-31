@@ -25,3 +25,7 @@
 .centered {
   text-align: center;
 }
+
+.platform-ios .default-margin-jump {
+  margin-top: 15%;
+}

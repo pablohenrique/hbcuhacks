@@ -31,18 +31,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // Each state's controller can be found in controllers.js
   $stateProvider
 
-    .state('app', {
-      url: '/app',
-      abstract: true,
-      templateUrl: 'templates/menu.html',
-      controller: 'AppCtrl'
-    })
-
-    .state('topbar',{
-      url: '/topbar',
-      abstract:true,
-      templateUrl: 'templates/topbar.html'
-    })
+    //.state('app', {
+    //  url: '/app',
+    //  abstract: true,
+    //  templateUrl: 'templates/menu.html',
+    //  controller: 'AppCtrl'
+    //})
+    //
+    //.state('topbar',{
+    //  url: '/topbar',
+    //  abstract:true,
+    //  templateUrl: 'templates/topbar.html'
+    //})
 
   // setup an abstract state for the tabs directive
     .state('tab', {
@@ -92,12 +92,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-    .state('tab.test', {
-      url: '/test',
+    .state('tab.order', {
+      url: '/order',
       views: {
-        'tab-account': {
-          templateUrl: 'templates/tab-test.html',
-          controller: 'AccountCtrl'
+        'tab-order': {
+          templateUrl: 'templates/tab-order.html',
+          controller: 'OrderCtrl'
         }
       }
     });

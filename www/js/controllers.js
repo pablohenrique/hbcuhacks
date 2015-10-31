@@ -2,6 +2,8 @@ angular.module('starter.controllers', [])
 
   .controller('DashCtrl', function($scope) {})
 
+  .controller('OrderCtrl', function($scope) {})
+
 
   .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -64,12 +66,6 @@ angular.module('starter.controllers', [])
   })
 
   .controller('AccountCtrl', function($scope) {
-    $scope.settings = {
-      enableFriends: true
-    };
-  })
-
-  .controller('TestCtrl', function($scope) {
     $scope.settings = {
       enableFriends: true
     };
