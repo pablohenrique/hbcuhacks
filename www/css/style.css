@@ -25,3 +25,15 @@
 .centered {
   text-align: center;
 }
+
+.platform-ios .default-margin-jump {
+  margin-top: 15%;
+}
+
+.w3-table-all td, .w3-table-all th, .w3-table-all th:first-child, .w3-table-all td:first-child {
+  padding:8px;
+}
+
+.w3-table-all th {
+  text-align: left;
+}

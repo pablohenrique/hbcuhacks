@@ -1,0 +1,105 @@
+<ion-view view-title="Order">
+  <ion-content class="padding">
+
+    <table class="w3-table-all" style="width:100%;">
+      <tbody>
+      <tr>
+        <th>Qu</th>
+        <th>Item</th>
+        <th>Value</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>
+          <!--<input type="text" value="1" style="width: 30px;"/>-->
+          <!--<div class="item item-input-inset" style="width: 30px;">-->
+          <!--<label class="item-input" style="width: 30px; height: auto;">-->
+          <input class="item-input" type="number" placeholder="#" value="1" style="width: 30px; border-color: Gray; border-style: solid; border-width: 1px; text-align: center;">
+          <!--</label>-->
+          <!--</div>-->
+        </td>
+        <td>Budweiser 18z</td>
+        <td>$2.50</td>
+        <td>
+          <button class="button-clear">
+            <i class="icon ion-ios-close"></i>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="item-input" type="number" placeholder="#" value="2" style="width: 30px; border-color: Gray; border-style: solid; border-width: 1px; text-align: center;">
+        </td>
+        <td>Bud Light 18oz</td>
+        <td>$4.20</td>
+        <td>
+          <button class="button-clear">
+            <i class="icon ion-ios-close"></i>
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input class="item-input" type="number" placeholder="#" value="2" style="width: 30px; border-color: Gray; border-style: solid; border-width: 1px; text-align: center;">
+        </td>
+        <td>Heineken 18oz</td>
+        <td>$4.00</td>
+        <td>
+          <button class="button-clear">
+            <i class="icon ion-ios-close"></i>
+          </button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+
+
+    <table class="w3-table-all" style="width:100%; background-color: #387ef5; color:#FFF; margin: 5px 0 5px 0;">
+      <tbody>
+      <tr>
+        <th>Shipping and handling</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>$1.00</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <table class="w3-table-all" style="width:100%; background-color: #ffc900; color:#FFF; margin: 5px 0 5px 0;">
+      <tbody>
+      <tr>
+        <th>Discounts and promotions</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>-$0.70</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <table class="w3-table-all" style="width:100%; background-color: #886aea; color: #FFF;">
+      <tbody>
+      <tr>
+        <th>Total amount purchased</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td><b>$11.00</b></td>
+      </tr>
+      </tbody>
+    </table>
+
+    <button class="button button-block button-balanced" style="margin-bottom:70px;">
+      Proceed to checkout
+    </button>
+
+  </ion-content>
+
+  <a class="" href="#/tab/dash">
+    <button class="button button-block button-clear shopping-list-default shopping-list-btn">
+      Keep shopping
+    </button>
+  </a>
+</ion-view>
