@@ -38,5 +38,11 @@ angular.module('starter.controllers', [])
     $scope.settings = {
       enableFriends: true
     };
+  })
+
+  .controller('MyCtrl',function($scope) {
+    $scope.click = function(num) {
+      $scope.var = num;
+    }
   });
 ;
